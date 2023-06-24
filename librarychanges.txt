@@ -1,0 +1,15 @@
+# from keras.utils import layer_utils
+from tensorflow.python.keras.utils import layer_utils
+
+from keras.utils.data_utils import get_file
+from tensorflow.python.keras.utils.data_utils import get_file
+
+
+from keras.engine.topology import get_source_inputs
+from keras.utils import get_source_inputs
+
+# # from keras.src.utils.layer_utils import get_source_inputs
+# # from keras.src.utils.layer_utils import warmstart_embedding_matrix
+# Replace above lines in installed keras.ib/python3.9/site-packages/keras/utils/__init__.py
+# from keras.utils import get_source_inputs
+# from keras.utils import warmstart_embedding_matrix
